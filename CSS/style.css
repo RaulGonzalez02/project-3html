@@ -1,0 +1,40 @@
+@font-face {
+    font-family: pristina;
+    src: url(../fonts/pristina.ttf);
+}
+body{
+    background-color: gray;
+    background-image: url(../images/fondo.png);
+    font-family: pristina;
+}
+.container{
+    width: 800px;
+    margin: 20px auto;
+}
+.titulo{
+    width: 300px;
+    margin-left: 30px;
+}
+.fondoinicio{
+    background-image: url(../images/fotopresentacion.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 800px;
+    height: 350px;
+}
+.entrar{
+    margin-left: auto;
+    color: #ce8217;
+    font-size: 3rem;
+    position:relative;
+    right: -650px;
+    bottom: -275px;
+    text-decoration: none;
+}
+.entrar:hover{
+    text-decoration: underline;
+}
+.pie{
+    width: 700px;
+    margin-left: auto;
+}
